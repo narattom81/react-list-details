@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #424242;
+}
+
+a:hover {
+  color: #212121;
+}
+
+.campaign-container {
+  display: flex;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  padding: 5px 15px;
+}
+
+.campaign-list {
+  display: flex;
+  flex: 40;
+}
+
+.campaign-detail {
+  display: flex;
+  flex: 60;
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+.campaign-list-item {
+  background: #d7dee4;
+  padding: 5px;
+  width: 100%;
+  border-radius: 2px;
+  margin: 5px 0;
+}
